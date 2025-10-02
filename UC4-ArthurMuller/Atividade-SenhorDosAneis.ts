@@ -41,40 +41,51 @@ const paginasNarrativas: PaginaNarrativa[] = [
 
     new PaginaNarrativa(15, "O nascimento de um novo mal \n Os sussurros do Anel se tornam irresistíveis. Ao invés de lançá-lo às chamas, você se volta contra Gandalf.\n Com um golpe traiçoeiro, o lança no abismo de lava, ouvindo seu grito desaparecer em meio às labaredas.\n O poder do Anel queima em sua mão, mas ao unir-se à força colossal do Sidtopiazord, você se transforma em algo nunca visto antes: um Senhor das Trevas Mecanizado, invencível.\n Agora, a Terra-Média se curva diante de você. Elfos, anões, homens e hobbits tremem ao ouvir seu nome.\n Com o Anel do Poder e o mecha sob seu comando, nenhum exército poderá detê-lo.\n Fim do Caminho das Sombras ☠️"),// ESCREVER HISTORIA
     
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(0, "'"),// ESCREVER HISTORIA
-    new PaginaNarrativa(1, "Você acorda em uma caverna escura..."),
-    new PaginaNarrativa(2, "Ao sair da caverna, vê uma floresta misteriosa."),
-    new PaginaNarrativa(3, "Lembra de Gandoff com seu Cajado e da risada."),
-    new PaginaNarrativa(4, "Depois de andar pela floresta, vê uns anões caminhando e pergunta a eles onde está o resto do grupo."),
-    new PaginaNarrativa(5, "Os anões perguntam se estou procurando Gandoff. Digo a eles que sim."),
-    new PaginaNarrativa(6, "Vejo um brilho no horizonte. Gandoff havia invocado o Mecha Gandoff que usou sua magia especial Sentinela Nuclear."),
-    new PaginaNarrativa(7, "Me pergunto o que é aquilo. Os anões ficam olhando, pensando o que é aquilo."),
-    new PaginaNarrativa(8, "Os anões falam: 'Aquele velho chamou aquela coisa de novo!'"),
-    new PaginaNarrativa(9, "Os anões dizem: 'Última vez que ele chamou aquela coisa, explodiu a floresta e destruiu o castelo.'"),
-    new PaginaNarrativa(10, "Os anões contam a história de como ele enfrentou seu tutor com o Mecha Gandoff."),
-    new PaginaNarrativa(11, "Gandoff descobre um artefato milenar, uma magia arcana suprema e um grimório antigo. Também encontra algumas coisas."),
-    new PaginaNarrativa(12, "Tempo depois, Gandoff invoca o Mecha Gandoff que luta com Saruman até seu tutor ficar cansado. Então chama o Nuclear Strike."),
-    new PaginaNarrativa(13, "Gandoff sai de perto e seu tutor é incinerado. Ele ri e diz: 'Essa magia é diferenciada.'")
+    new PaginaNarrativa(16, " A floresta incendiada \n Seguindo pelo caminho da direita, o cheiro de fumaça invade suas narinas. As árvores ao redor estão queimadas, algumas ainda crepitam em brasas vivas. Você avança com cautela até encontrar uma nova bifurcação: \n Um caminho à esquerda continua floresta adentro, levando a estrondos mágicos no horizonte. → vá para a página 8 \n Um caminho à direita retorna a um desfiladeiro de pedra que leva de volta a uma caverna desconhecida. → vá para a página 20"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(17, "Voltando para casa \n Exausto da escuridão e do perigo, você decide que aventuras não são para você. Ao sair da caverna, retorna pelos campos até sua casa aconchegante no Condado. \n Lá, aquece um chocolate quente, se enrola em um cobertor e adormece em paz, enquanto o destino da Terra-Média continua sem você. \n Afinal, o que um simples hobbit poderia fazer contra as forças do mal? \n Fim do Caminho do Descanso🛏️"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(18, "A vitória do Mal \n Você tenta usar o Anel contra Saruman, mas sua força ainda é instável. As vozes dentro dele confundem sua mente, e sua magia falha no momento decisivo. \n Gandalf, já enfraquecido, não resiste aos feitiços do inimigo e cai mortalmente ferido. \n Saruman o captura, arranca o Anel de sua mão e, triunfante, corre para entregá-lo ao verdadeiro senhor das trevas. \n → siga para a página 19"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(19, "O domínio de Sauron \n Com o Anel recuperado, Sauron desperta em sua forma completa. Sua sombra cobre toda a Terra-Média, e exércitos de orcs, trolls e Nazgûl marcham sem oposição. \n As cidades caem, os povos livres são escravizados e a esperança desaparece. \n Nada pode conter o poder absoluto do Senhor do Escuro. \n Fim do Caminho da Ruína ☠️"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(20, "A Caverna dos Trolls \n O caminho pela direita leva você até uma gruta úmida e abafada, completamente diferente da primeira caverna onde acordou. O teto é baixo, o ar é pesado, e as paredes estão cobertas de símbolos rudes esculpidos na pedra. \n Você avança cautelosamente até tropeçar em algo metálico entre pilhas de ossos espalhados pelo chão. Ao afastar os restos de cadáveres, encontra uma adaga élfica brilhante, ainda envolta por um leve fulgor azulado. O fio da lâmina parece novo, como se tivesse sido forjado ontem. \n Você pode guardar a adaga élfica no inventário, que poderá ser usada em combates futuros. \n Logo em seguida, um estrondo faz o chão tremer: três trolls imensos estão reunidos ao redor de uma fogueira, devorando ossos ainda cobertos de carne. Suas vozes ecoam como trovões, e o cheiro de sangue e fumaça toma conta do ambiente. \n Eles ainda não notaram sua presença, mas o espaço é apertado demais para simplesmente fugir. Você precisará agir. \n Enfrentar os trolls com toda a sua coragem (se tiver o Anel, a Adaga Élfica, pode usá-los na luta). → vá para a página 21 \n Tentar enganar os trolls, usando astúcia para sobreviver. → vá para a página 22"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(21, "O Combate Contra os Trolls \n Você avança empunhando sua arma. O brilho da adaga élfica corta a escuridão da caverna, e os trolls finalmente percebem sua presença. Rugindo como tempestades, eles se levantam, enormes e furiosos. \n Você luta com tudo o que tem: esquivas rápidas, cortes certeiros e golpes desesperados. Ainda assim, o peso de cada martelada dos monstros faz o chão tremer, e parece que a derrota é inevitável. \n Quando um dos trolls ergue sua clava para esmagá-lo, uma lâmina atravessa a criatura por trás. \n → Vá para a página 23"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(22, "Enganando os Trolls \n Você se esconde nas sombras e, aproveitando a escuridão, começa a atirar pedras para distrair os trolls. Eles se viram uns contra os outros, rosnando e discutindo, até que o maior deles ergue a clava para esmagar um companheiro. \n Antes do golpe acontecer, uma lâmina brilhante corta o ar. \n → Vá para a página 23"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(23, "A Aparição de Aragorn \n Das trevas surge Aragorn, filho de Arathorn, espada em punho. Com golpes rápidos e precisos, ele derruba os três trolls sozinho, finalizando o último com uma estocada certeira no coração. \n O silêncio retorna à caverna. Aragorn limpa a lâmina e olha diretamente para você. \n — “Nenhum mal resistirá enquanto eu estiver por perto. Você teve coragem… mas também sorte em sobreviver.” \n Ele se aproxima e continua: \n — “Fui enviado por Gandalf para encontrar Frodo, o portador do Anel. Há muito tempo sigo o rastro das trevas, e sei que o caminho até a cidade dos elfos é nossa melhor chance de proteger a Terra-Média. Venha comigo — juntos seguiremos rumo aos aliados que nos ajudarão a enfrentar o que está por vir.” \n→ Vá para a página 24"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(24, " A Cidade dos Elfos \n Guiado por Aragorn, você deixa para trás a caverna dos trolls. Após dias de caminhada pela floresta, o ar pesado de musgo e pedras começa a mudar. Uma brisa leve, perfumada por flores silvestres, enche seus pulmões. \n De repente, diante de seus olhos, ergue-se a magnífica cidade élfica, oculta entre colinas e árvores gigantescas. Torres brancas se misturam à natureza como se fossem parte dela, e pontes de cristal atravessam rios brilhantes. O canto de vozes élficas ecoa, suave como um feitiço. \n Na entrada, um grupo de guardiões o saúda, reconhecendo Aragorn com respeito. Um deles se aproxima e fala em língua comum: \n — “Sejam bem-vindos. O Conselho Élfico já os aguarda.” \n Você é levado até um salão iluminado por tochas mágicas e cristais suspensos no ar. No centro, um trono esculpido em madeira viva abriga Lord Elrond, que observa você com olhos antigos e sábios. \n — “Estranho viajante… carrega em sua alma tanto a sombra quanto a esperança. Seu destino pode mudar o rumo da guerra.” \n Ele então oferece duas opções: \n Aceitar a bênção dos elfos: receber uma malha de Mithril, leve como o linho e mais dura que o ferro mais resistente, capaz de proteger você nas batalhas futuras. → vá para a página 25 \n Recusar e seguir adiante com Aragorn: preferindo manter sua própria força sem depender de presentes élficos. → vá para a página 26"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(25, "A Dádiva de Mithril \n Você aceita a bênção dos elfos. Elrond ergue a mão, e dois elfos se aproximam trazendo uma pequena caixa prateada. Ao abri-la, você vê algo que reluz como se fosse tecido de estrelas: uma malha de Mithril. \n — “Este presente não é comum, jovem aventureiro. O Mithril é mais leve que o linho e mais duro que o ferro mais resistente. Com ele, sua vida poderá ser poupada diante das maiores ameaças.” \n Aragorn observa em silêncio, mas você percebe respeito em seu olhar. Receber uma dádiva dessas não é apenas um presente: é um voto de confiança dos elfos em seu destino. \n Você veste a malha, sentindo sua leveza quase etérea. É como se estivesse protegido não apenas por metal, mas também pela própria esperança dos povos livres. \n Galadriel sorri para você, transmitindo segurança e confiança: \n — “Com esta proteção, seus passos serão guiados e suas batalhas mais seguras. Mas lembre-se: coragem e sabedoria são tão importantes quanto a armadura que veste.” \n Com a malha em seu inventário, você, Aragorn e Galadriel partem rumo ao próximo destino, o coração da guerra contra Sauron. \n → Vá para a página 27"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(26, "Seguindo sem a Dádiva de Mithril \p Você decide recusar a dádiva dos elfos, preferindo confiar em sua própria força e nos artefatos que já possui. \p Aragorn assente, respeitando sua escolha: \p — “A coragem não vem apenas das armas ou da proteção. Que sua determinação seja sua armadura.” \p Galadriel observa seu gesto com aprovação, compreendendo que você quer confiar na própria habilidade. \p — “Então seguiremos juntos, mas esteja atento a cada passo. A sombra de Sauron é traiçoeira e não espera por ninguém.” \p Vocês deixam a cidade élfica e se embrenham novamente na floresta, guiados pela experiência de Aragorn e pelo poder de Galadriel. \p→ Vá para a página 27  "),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(27, "Rumo ao Coração das Trevas \n A floresta se abre e uma trilha de pedra se revela, levando vocês a uma planície árida. Montanhas negras se erguem ao longe, e a sombra de Mordor cobre o horizonte. \n Aragorn vira-se para você e fala com seriedade: \n — “O caminho não será fácil. Precisamos atravessar territórios inimigos e chegar até o coração das trevas.” \n Galadriel estende a mão, e uma luz suave envolve vocês, revelando pequenas passagens e atalhos seguros pela planície. \n  — “Fiquem atentos. Cada passo que derem poderá ser decisivo. Use seus artefatos com sabedoria.” \n À frente, dois caminhos se apresentam: \n Seguir pela trilha aberta, rápida, mas com risco de emboscadas. → vá para a página 28 \n Seguir por um desfiladeiro estreito, perigoso, mas possivelmente seguro contra exércitos inimigos. → vá para a página 29"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(28, "A Trilha Aberta \n Vocês decidem seguir pela trilha aberta. O caminho é mais rápido, mas logo percebem sinais de alerta: rastros de Orcs espalhados pelo solo, árvores queimadas e corvos observando de cima. \n Aragorn aponta discretamente: \n — “Estes sinais indicam emboscadas. Preparem-se.” \nDe repente, um grupo de Orcs surge das sombras, avançando com gritos agudos. Galadriel ergue as mãos, e uma barreira de luz dourada desacelera os inimigos, dando tempo para você reagir. \n Você pode: \n Atacar com a Adaga Élfica, causando grande dano aos Orcs → siga para a página 30 \n Usar o Anel para criar distração ou atacar → siga para a página 31 \n Confiar na proteção da Malha de Mithril e lutar corpo a corpo → siga para a página 32"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(29, "O Desfiladeiro Estreito \n Vocês escolhem o desfiladeiro estreito. O caminho é perigoso: pedras soltas e penhascos íngremes tornam cada passo arriscado. No entanto, a chance de emboscadas é menor, e vocês se movem com mais cuidado. \n De repente, uma ponte de pedra parcialmente destruída bloqueia o caminho. Um rugido ecoa do desfiladeiro: trolls menores patrulham a área. \n Galadriel levanta a mão, invocando uma luz que revela pontos seguros sobre a ponte e pedras firmes nas bordas do desfiladeiro. \n — “Sigam com cuidado. Um passo em falso pode custar a vida de vocês.” \n Você pode: \n Usar a Adaga Élfica para atacar os trolls à distância, derrubando-os → siga para a página 33 \n Confiar na magia do Anel para confundir os trolls → siga para a página 34 \n Seguir cautelosamente usando a proteção da Malha de Mithril, enfrentando qualquer ataque corpo a corpo → siga para a página 35"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(30, "Combate na Trilha Aberta (Adaga Élfica) \n Você empunha a adaga élfica, e seu brilho corta a escuridão. Cada golpe atinge Orcs com precisão, derrubando alguns antes que eles possam reagir. \n Aragorn avança com sua espada, eliminando qualquer inimigo que se aproxime. Galadriel conjura rajadas de luz, desorientando os restantes. \n Após uma batalha intensa, todos os Orcs caem, e a trilha aberta está segura. Vocês continuam avançando, sabendo que Mordor está cada vez mais próximo. \n → Vá para a página 36"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(31, "Combate com Magia do Anel \n Você ativa o Anel, criando ilusões e distrações que confundem os Orcs. Alguns se atacam entre si, outros fogem apavorados. \n Aragorn aproveita a confusão para eliminar os inimigos restantes com golpes precisos, enquanto Galadriel envia ondas de luz que incapacitam os Orcs mais resistentes. \n Após a batalha, a trilha está livre, e vocês prosseguem para Mordor. \n → Vá para a página 36"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(32, "Combate Corpo a Corpo (Malha de Mithril) \n Com a Malha de Mithril, você se lança contra os Orcs com confiança. A armadura protege você de golpes letais, e você consegue atingir vários inimigos. \n Aragorn e Galadriel combatem lado a lado com você. A batalha é intensa, mas a proteção da malha e a coordenação com seus aliados garantem vitória. \n → Vá para a página 36"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(33, "Desfiladeiro – Ataque com Adaga Élfica \n Você ataca os Orcs sombrios de Sauron à distância, atingindo pontos vitais. Dois Orcs sombrios de Sauron caem antes mesmo de perceberem sua presença. \n Aragorn corta o terceiro com um golpe certeiro, enquanto Galadriel lança luz sobre a ponte, garantindo que vocês atravessem sem cair. \n → Vá para a página 36"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(34, "Desfiladeiro – Magia do Anel \n Você usa a magia do Anel para criar ilusões, confundindo os Orcs sombrios de Sauron. Eles começam a atacar uns aos outros, e a passagem se abre. \n Com Aragorn e Galadriel ao lado, vocês derrotam os Orcs sombrios de Sauron e avançam com segurança. \n → Vá para a página 36"),// ESCREVER HISTORIA
+    
+    new PaginaNarrativa(35, "Desfiladeiro – Corpo a Corpo com Malha de Mithril \n Você se lança contra os Orcs sombrios de Sauron, protegido pela Malha de Mithril. Cada ataque é absorvido pela armadura, e você consegue derrubar os inimigos um a um. \n Galadriel conjura luz para manter o equilíbrio na ponte, enquanto Aragorn finaliza o último Orcs sombrios de Sauron. \n → Vá para a página 36"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(36, "A Chegada a Mordor \n Vocês finalmente alcançam a entrada de Mordor. O céu está vermelho com nuvens de cinza e fogo. A torre de Barad-dûr ergue-se ameaçadora, e o Olho de Sauron brilha, percebendo sua chegada. \n Aragorn vira-se para você: \n — “Tudo depende de nós agora. Este é o momento decisivo.” \n Galadriel acrescenta: \n — “Se estivermos unidos e usarmos todos os artefatos com sabedoria, há esperança.” \n Vocês veem Sauron no alto de Barad-dûr, empunhando a espada colossal e preparando seu ataque final. \nVocê pode: \n Usar todos os artefatos e a ajuda de Aragorn e Galadriel para enfrentar Sauron diretamente → vá para a página 37 (Vitória) \n Subestimar a batalha ou ser traído pelo Anel, resultando na derrota → vá para a página 38 (Derrota catastrófica)"),// ESCREVER HISTORIA
+
+    new PaginaNarrativa(37, "Vitória Contra Sauron \n Com coordenação perfeita: você usa a Adaga Élfica e o Anel estrategicamente, Aragorn corta o caminho de Sauron, e Galadriel envia rajadas de luz poderosa. \n No momento decisivo, você consegue atingir o ponto fraco de Sauron. Ele é destruído, sua espada despedaçada e a torre de Barad-dûr treme e colapsa. \n O mundo da Terra-Média é libertado da sombra. Frodo celebra a vitória, Gandalf sorri do alto da torre de Barad-dûr, e a paz é restaurada. \n Fim do Caminho da Luz ✨"),// ESCREVER HISTORIA
+    
+    new PaginaNarrativa(38, "Derrota Catastrófica \n O poder do Anel ou a sobrecarga de magia é demais para controlar. Sauron domina a batalha, e seus ataques devastadores não deixam espaço para defesa. \n Um Tengai Shinsei lançado do Olho de Sauron atinge o solo, destruindo toda a planície, queimando exércitos e aliados. Aragorn, Galadriel e você são atingidos, e a Terra-Média cai sob uma sombra eterna. \n O mundo está perdido. O poder de Sauron é absoluto. \n Fim do Caminho das Sombras ☠️"),// ESCREVER HISTORIA
 ];
 
 // Função de MENU PRINCIPAL
@@ -182,39 +193,52 @@ function Bat() {
 // Função de ESCOLHAS NARRATIVAS
 function escolhas() {
     console.log("Você chegou a uma bifurcação na estrada:");
-    const escolha = Number(
-        prompt("1 - Seguir pela esquerda (floresta)\n2 - Seguir pela direita (montanhas)\nEscolha: ")
-    );
 
-    switch (escolha) {
-        case 1:
-            const paginaEsquerda = paginasNarrativas.find(p => p.paginaNumero === 5);
-            if (paginaEsquerda) {
-                paginaEsquerda.Verificarpagina();
-            } else {
-                console.log("Página não encontrada.");
-            }
-            break;
+    // Lista de escolhas possíveis
+    const opcoes = [
+        { numero: 1, descricao: "Seguir pela esquerda (floresta)", pagina: 5 },
+        { numero: 2, descricao: "Seguir pela direita (montanhas)", pagina: 16 },
+        { numero: 3, descricao: "Mergulhar no lago dourado", pagina: 2 },
+        { numero: 4, descricao: "Seguir pelo túnel sombrio", pagina: 4 },
+        { numero: 5, descricao: "Ir atrás do som misterioso", pagina: 7 },
+        { numero: 6, descricao: "Procurar os anões", pagina: 8 },
+        { numero: 7, descricao: "Seguir Gandalf até Mordor", pagina: 10 },
+        { numero: 8, descricao: "Entrar na floresta antiga", pagina: 6 },
+        { numero: 9, descricao: "Subir a colina", pagina: 11 },
+        { numero: 10, descricao: "Examinar as ruínas", pagina: 12 },
+        { numero: 11, descricao: "Voltar para a caverna", pagina: 1 },
+        { numero: 12, descricao: "Seguir sinais de fumaça", pagina: 9 },
+        { numero: 13, descricao: "Chamar por ajuda", pagina: 13 },
+        { numero: 14, descricao: "Esperar no mesmo lugar", pagina: 3 },
+        { numero: 15, descricao: "Seguir pegadas estranhas", pagina: 7 },
+        { numero: 16, descricao: "Explorar cavernas profundas", pagina: 4 },
+        { numero: 17, descricao: "Tentar escalar a montanha", pagina: 11 },
+        { numero: 18, descricao: "Seguir o vento frio", pagina: 2 },
+        { numero: 19, descricao: "Procurar por comida", pagina: 5 },
+        { numero: 20, descricao: "Invocar coragem e seguir em frente", pagina: 10 },
+    ];
 
-        case 2:
-            const paginaDireita = paginasNarrativas.find(p => p.paginaNumero === 6);
-            if (paginaDireita) {
-                paginaDireita.Verificarpagina();
-            } else {
-                console.log("Página não encontrada.");
-            }
-            break;
-         case 3:
-            console.log("Gostaria de Voltar ao Caminho Principal");
-            Historia();
-            break;
-    
-        default:
-            console.log("Escolha inválida.");
-            break;
+    // Mostrar todas as opções
+    opcoes.forEach(op => {
+        console.log(`${op.numero} - ${op.descricao}`);
+    });
+
+    const escolha = Number(prompt("Escolha um caminho: "));
+
+    // Buscar a escolha do jogador
+    const caminho = opcoes.find(op => op.numero === escolha);
+
+    if (caminho) {
+        const paginaEscolhida = paginasNarrativas.find(p => p.paginaNumero === caminho.pagina);
+        if (paginaEscolhida) {
+            paginaEscolhida.Verificarpagina();
+        } else {
+            console.log("Página ainda não criada.");
+        }
+    } else {
+        console.log("Escolha inválida.");
     }
 }
-
 
 function Inv() {
     const inventario = new Inventario(10,[]);
